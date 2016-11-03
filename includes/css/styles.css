@@ -1,0 +1,174 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Prerna Kukreti 
+Updated: November 2016
+
+*/
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+        body{
+          -webkit-font-smoothing:antialiased;
+          text-rendering: optimizeLegibility;
+          background-color: #f7f7f7;
+        }
+        /*Navbar*/
+
+        #myNavbar{
+          background-color: #1ABC9C;
+        }
+        #myNavbar ul a{
+          color: white;
+          font: 17px "Helvetica Neue",Helvetica,Arial,sans-serif;
+          display: block;
+          font-weight: 600;
+        }
+        #searchInput{
+          width: 200px;
+        }
+        #navbarHeader a{
+          color: white;
+          font-family: 'Monoton', serif;
+          font-size: 30px;
+        }
+       .navbar-inverse .dropdown-menu{
+          background-color: #4e4f51;
+          font-family: 'Cantarell', sans-serif;
+         text-transform: lowercase;
+
+        }
+        /*section starts here*/
+        #content{
+
+          margin-top: 60px;
+        }
+        #content img{
+      width: 300px;
+      height: 466px;
+    }
+    /*alert box styling*/
+    .alert{
+      margin-top: 40px;
+      display:none;
+    }
+    #content h2{
+      font-family: 'Krona One', sans-serif;
+      text-transform: uppercase;
+      font-size: 25px;
+      color: #333333;
+      margin-bottom: 20px;
+      font-weight: normal;
+    }
+    #content h4{
+      font-family: 'Krona One', sans-serif;
+      text-transform: uppercase;
+      font-size: 18px;
+      text-align: center;
+      line-height: 24px;
+      margin-bottom: 52px;
+      height: 30px;
+      color: #333333;
+      font-weight: normal;
+    }
+    #content h5{
+      padding-bottom: 24px;
+      display: block;
+      color: #7f7f7f;
+      text-transform: lowercase;
+      font-size: 14px;
+      line-height: 24px;
+      font-family: 'Open Sans', sans-serif;
+      text-align: justify;
+    }
+
+    /*pagination starts here*/
+
+    #pagination{
+
+
+    }
+    #pagination li{
+      list-style: none;
+      float: left;
+      height: 30px;
+      width: 35px;
+      text-align: center;
+      border: solid 2px ;
+      /*background-color: #595959;*/
+      color:white;
+    }
+    #pagination li:hover{
+      cursor: pointer;
+      background-color: #ff3300;
+    }
+    .btn-danger{
+      border: solid 2px orange;
+      color: red;
+    }
+    .btn-primary{
+
+      background-color: #61b2a8;
+    }
+    .activeLink{
+      background-color: blue;
+    }
+
+  /*footer starts here*/
+  .social{
+      background-color: #021463;
+    }
+    #footerSocial {
+       margin: 40px 0px;
+    }
+   #footerSocial h6, #footerSocialHeader h3{
+     font-family: 'Krona One', sans-serif;
+     text-transform: uppercase;
+     color: white;
+     text-align: center;
+     font-weight: normal;
+     font-size: 10px;
+   }
+   .copyright{
+     background-color: #171B2C;
+   }
+   .copyright p{
+     text-align: center;
+   }
+   #footerHome{
+     font-family: 'Krona One', sans-serif;
+     text-transform: uppercase;
+     color: white;
+     text-align: center;
+     font-weight: normal;
+     font-size: 10px;
+     line-height: 60px;
+   }
+   #footerHome a h3{
+     font-family: 'Krona One', sans-serif;
+     text-transform: uppercase;
+     color: white;
+     text-align: center;
+     font-weight: normal;
+     font-size: 14px;
+     line-height: 60px;
+
+   }
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
