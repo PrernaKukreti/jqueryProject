@@ -3,10 +3,12 @@
 My Custom CSS
 =============
 
-Author:  Prerna Kukreti 
+Author:  Nitin Kumar Verma
 Updated: November 2016
 
 */
+
+
 /* --------------------------------------
    Layout
    -------------------------------------- */
@@ -16,6 +18,12 @@ Updated: November 2016
           text-rendering: optimizeLegibility;
           background-color: #f7f7f7;
         }
+
+
+
+
+
+
         /*Navbar*/
 
         #myNavbar{
@@ -41,6 +49,7 @@ Updated: November 2016
          text-transform: lowercase;
 
         }
+
         /*section starts here*/
         #content{
 
@@ -104,13 +113,14 @@ Updated: November 2016
     #pagination li:hover{
       cursor: pointer;
       background-color: #ff3300;
+      /*border: solid 2px red;*/
     }
     .btn-danger{
       border: solid 2px orange;
       color: red;
     }
     .btn-primary{
-
+      /*border-color: red;*/
       background-color: #61b2a8;
     }
     .activeLink{
@@ -157,6 +167,21 @@ Updated: November 2016
      line-height: 60px;
 
    }
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
