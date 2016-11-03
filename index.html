@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Website Title & Description for Search Engine purposes -->
+    <title></title>
+    <meta name="description" content="">
+    <!-- Mobile viewport optimized -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="includes/css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Krona+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cantarell" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- Starts Navbar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="myNavbar">
+            <!-- for sticky navbar -->
+            <div class="container-fluid">
+                <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">		<!-- starts of navbar toggle button -->
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+                <!-- ends of navbar toggle button -->
+                <div class="navbar-header" id="navbarHeader">
+                    <!-- starts of navbar header title -->
+                    <a class="navbar-brand" href="./Portfolio.html">Movies4u</a>
+                </div>
+                <!-- ends of navbar header title -->
+                <div class="nav-collapse collapse navbar-responsive-collapse">
+                    <!-- starts of navigation bar such as relation news etc -->
+                    <ul class="nav navbar-nav pull-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-align-justify"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><span class="glyphicon glyphicon-user"></span>log-in</a></li>
+                                <li><a href="#"><span class="glyphicon glyphicon-plus"></span>sign-up</a></li>
+                                <li><a href="#"><span class="glyphicon glyphicon-briefcase"></span>database</a></li>
+                                <li class="devider">
+                                    <hr>
+                                </li>
+                                <li class="dropdown-header">cover Stories</li>
+                                <li><a href="#">Featured</a></li>
+                                <li><a href="#">Campaigns</a></li>
+                                <li><a href="#">Editorials</a></li>
+                                <li><a href="#">Lookbooks</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="navbar-form pull-right" id="searchButton" name="navForm">
+                        <input type="text" class="form-control" placeholder="Search" id="searchInput" name="searchForm">
+                        <button type="button" class="btn btn-default" id="mybut"><span class="glyphicon glyphicon-search" ></span></button>
+                    </form>
+                    <ul class="nav navbar-nav pull-right">
+                        <li class="dropdown">
+                            <a data-options="is_hover:true;hover_delay:400;" href="#" class="dropdown-toggle" data-toggle="dropdown">HOME</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">news</a></li>
+                                <li><a href="#">talent</a></li>
+                                <li><a href="#moreInfo3">agencies</a></li>
+                                <li class="devider"></li>
+                                <li class=dropdown-header>ranking</li>
+                                <li><a href="#">Trending</a></li>
+                                <li><a href="#">legends</a></li>
+                                <li><a href="#">runway</a></li>
+                                <li><a href="#">social</a></li>
+                                <li><a href="#">top newcomers</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">SEARCH</a></li>
+                    </ul>
+                </div>
+                <!-- ends of navigation bar such as relation news etc -->
+            </div>
+        </nav>
+        <!-- End Navbar -->
+    </div>
+    <!--End container-fluid-->
+    <div class="container" id="content">
+        <div class="row">
+            <div class="alert alert-danger alert-block fade in" id="dangerAlert">
+                <button type="button" class="close" data-dismiss="alert" name="button">&times</button>
+                <!-- <h2>Error</h2> -->
+                <ul id='contentError'></ul>
+            </div>
+            <!--End Alert-->
+        </div>
+        <div class="row" id="movies">
+            <h2>Movies</h2>
+            <hr>
+            <ul id='searchMovies'></ul>
+        </div>
+				<div class="container">
+					<ul id="pagination">
+
+					</ul>
+				</div>
+        <hr>
+        <div class="row" id="series">
+            <h2>Series</h2>
+            <hr>
+            <ul id='searchSeries'></ul>
+        </div>
+    </div>
+    <footer>
+        <div class="social">
+            <div class="container">
+                <div class="row" id="footerSocialHeader">
+                    <h3>Search Your Favourites</h3>
+                </div>
+                <div class="row" id="footerSocial">
+                    <div class="col-sm-3">
+                        <center>
+                            <a href="#"><span class="fa-stack fa-3x">
+	  				<i class="fa fa-square fa-stack-2x"  style="color:#1da1f2;"></i>
+	  				<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+						</span>
+						</a>
+                            <h6>follow on twitter</h6>
+                        </center>
+                    </div>
+                    <div class="col-sm-3">
+                        <center>
+                            <a href="#"><span class="fa-stack fa-3x">
+	  			<i class="fa fa-square fa-stack-2x" style="color:#7B6DD2"></i>
+	  			<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+					</span>
+					</a>
+                            <h6>like on facebook</h6>
+                        </center>
+                    </div>
+                    <div class="col-sm-3">
+                        <center>
+                            <a href="#"><span class="fa-stack fa-3x">
+	  			<i class="fa fa-square fa-stack-2x" style="color:#cc181e"></i>
+	  			<i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+					</span>
+					</a>
+                            <h6>watch on youtube</h6>
+                        </center>
+                    </div>
+                    <div class="col-sm-3">
+                        <center>
+                            <a href="#"><span class="fa-stack fa-3x">
+	  			<i class="fa fa-square fa-stack-2x" style="color:#D4507E"></i>
+	  			<i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+					</span>
+					</a>
+                            <h6>follow on instagram</h6>
+                        </center>
+                    </div>
+                </div>
+            </div>
+            <!--end container-->
+        </div>
+        <!--end social-->
+        <div class="copyright">
+            <div class="container" id="footerHome">
+                <div class="row">
+
+                    <div class="col-sm-2"><a href="#"><h3>Home</h3></a></div>
+                    <div class="col-sm-2"><a href="#"><h3>About</h3></a></div>
+                    <div class="col-sm-2"><a href="#"><h3>Help</h3></a></div>
+                    <div class="col-sm-2"><a href="#"><h3>Contact</h3></a></div>
+                    <div class="col-sm-2"><a href="#"><h3>Policy</h3></a></div>
+                    <div class="col-sm-2"><a href="#"><h3>FAQ</h3></a></div>
+                </div>
+                <p>&copy 2016 Magento Demo Store. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer-->
+    <!-- First try for the online version of jQuery-->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="includes/js/script.js"></script>
+</body>
+</html>
